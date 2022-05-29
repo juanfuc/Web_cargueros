@@ -3,20 +3,9 @@ let A = new Aventura("es", {typewriterSpeed:0, defaultCSS: false});
 let escenas = {
   inicio: { 
   texto:"Montaje de Cargueros",
-  imagen:"./imgs/montaje1.png",
-
-  // opciones: [
-  //   {
-  //     btn:"Malaspina",
-  //     texto:"A finales del siglo XVIII la expedición Malaspina estuvo en Perú. Sus exploradores se adentraron en la frontera amazónica e hicieron unos dibujos que hoy son conocidos como la colección Bauza. Se pueden encontrar en el Museo de América en Madrid",
-  //     escena:"coleccionBauza"
-  //   },
-  //   {
-  //     btn:"Humboldt",
-  //     texto:"El carguero del paso del Quindío. Humboldt",
-  //     escena:"cargueroHumboldt"  
-  //   }
-  // ],
+  imagen:"./../../imgs/montaje1.png",
+  sinSalida: true,
+  
   areas: [
    { 
     x: 260,
@@ -142,82 +131,92 @@ let escenas = {
   },
   coleccionBauza: {
     texto:"El carguero de la expedición Malaspina",
-    imagen: "./imgs/img1.png",
+    imagen: "./../../imgs/img1.png",
     escena: "inicio"
    },
    cargueroHumboldt:{
      texto: "El carguero Villanero",
-     imagen: "./imgs/img4.png",
-     escena: "inicio"
+     imagen: "./../../imgs/img4.png",
+     escena: "inicio",
+     areas: [
+      {
+        x: 511,
+        y: 438,
+        w: 40,
+        h: 70,
+        texto: "",
+        escena: "VillaneroMira" 
+      }
+    ]
   },
   cargueroPrehispánico: {
     texto: "Carguero Prehispánico",
-    imagen: "./imgs/img_a.png",
+    imagen: "./../../imgs/img_a.png",
     escena: "inicio" 
   },
   expediciónBotánica: {
     texto: "Expedición Botánica",
-    imagen: "./imgs/img_b.png",
+    imagen: "./../../imgs/img_b.png",
     escena: "inicio"
   },
   cargueroVirreinalNG: {
     texto: "Carguero en archivo virreinal",
-    imagen: "./imgs/img2.png",
+    imagen: "./../../imgs/img2.png",
     escena: "inicio"
   },
   geografíadelasPlantas: {
     texto: "Tabla física. Geografía de las Plantas",
-    imagen: "./imgs/img_m.png",
+    imagen: "./../../imgs/img_m.png",
     escena: "inicio"
   },
   ciegoyParalítico: {
     texto: "Fábula del ciego y el paralítico",
-    imagen: "./imgs/img_r.png",
+    imagen: "./../../imgs/img_r.png",
     escena: "inicio"
   },
   cargueroChino: {
     texto: "Carguero Chino",
-    imagen: "./imgs/img9.png",
+    imagen: "./../../imgs/img9.png",
     escena: "inicio" 
   },
   cargueroQuadrodelPeru: {
     texto: "Carguero del Quadro del Perú",
-    imagen: "./imgs/img_f.png",
+    imagen: "./../../imgs/img_f.png",
     escena: "detalleCargueroQuadrodelPeru"
   },
   detalleCargueroQuadrodelPeru: {
     texto: "Detalle Carguero del Quadro del Perú",
-    imagen: "./imgs/img_i.png",
+    imagen: "./../../imgs/img_i.png",
     escena: "inicio"
   },
   carguerodelaMetropoli: {
     texto: "Carguero de la Metropoli (Paris)",
-    imagen: "./imgs/img8.png",
+    imagen: "./../../imgs/img8.png",
     escena: "inicio"
   },
   cargueroPinturasdeMestizaje: {
     texto: "Carguero Pinturas de Mestizaje",
-    imagen: "./imgs/img_j.png",
+    imagen: "./../../imgs/img_j.png",
     escena: "inicio"
   },
   VillaneroMira: {
     texto: "El carguero Villanero mira al observador",
-    imagen: "./imgs/img4.1.png",
+    imagen: "./../../imgs/img4.1.png",
     escena: "inicio"
   },
   fique: {
     texto: "Fique",
-    imagen: "./imgs/img4.2.png",
+    imagen: "./../../imgs/img4.2.png",
     escena: "inicio"
   },
   saturdayMagazine: {
     texto: "Carguero de Humboldt en el Saturday Magazine 1838",
-    imagen: "./imgs/img5.png",
+    imagen: "./../../imgs/img5.png",
     escena: "inicio"
   },
   cargueroSátira: {
     texto: "Caricatura de un miembro de la élite estadounidense cargando a diferentes personas racializadas de clases subalternas. 1868",
-    imagen: "./imgs/img_t.png",
+    imagen: "./../../imgs/img_t.png",
     escena: "inicio"
   } 
 }
