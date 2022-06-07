@@ -28,9 +28,15 @@ header .logo{
     display: table;
     height: 100%;
     float: left;
-    color: #5e454b;
 }
-
+header .logo a h2 {
+    color: #5e454b;
+    text-decoration: none;
+    box-shadow: none;
+}
+header .logo a h2:hover {
+    color:#d8b384;
+}
 header .logo div{
     height: 100%;
     display: table-cell;
@@ -66,6 +72,9 @@ header nav span {
 header nav a{
     color: #5e454b;
 }
+header nav a:hover{
+    color:#f3f0d7;
+}
 
 header nav .button{
     background-color: #d8b384; /* This HEX is the color of the button */
@@ -97,13 +106,21 @@ section h2 {
     margin-bottom: 5px;
     color: #5e454b;
 }
+section h2:hover {
+    color: #3fab9b;
+    filter: brightness(1.05);
+}
 section p {
     font-weight: 300;
     margin-bottom: 15px;
+    color:  #5e454b;
     
 }
 section img {
     height: 400px;
+}
+section img:hover {
+    height: 450px;
 }
 #sec1 {
     background: #f3f0d7;
@@ -135,18 +152,25 @@ footer {
     text-align: center;
 }
 
-.footer-container h3 {
+.footer-container a h3 {
     font-size: 1.8rem;
+    color:  #f3f0d7;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
 }
+.footer-container h3:hover {
+    color: #d8b384;
 
+}
 .footer-container p {
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
+}
+.footer-container p:hover {
+    color: #cee5d0;
 }
 #socials {
     list-style: none;
@@ -186,4 +210,22 @@ footer {
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
+}
+
+@media screen and (max-width: 1000px) {
+    section {
+        flex-direction: column-reverse;
+    }
+    section > img {
+        height: 40%;
+    }
+    .contenedor-texto {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section > img {
+        height: 25%;
+} 
 }
