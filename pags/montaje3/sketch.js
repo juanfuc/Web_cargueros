@@ -71,6 +71,46 @@ let escenas = {
         h: 2024,
         texto: ",",
         escena: "malaspina3"
+    },
+    {
+        x: 1208,
+        y: 4008,
+        w: 1096,
+        h: 736,
+        texto: "",
+        escena: "cargueroArchivo"
+    },
+    {
+        x: 2416,
+        y: 4380,
+        w: 780,
+        h: 1150,
+        texto: "",
+        escena: "villaneroMira"
+    },
+    {
+        x: 3496,
+        y: 4184,
+        w: 968,
+        h: 720,
+        texto: "",
+        escena: "cargueroPutumayo"
+    },
+    {
+        x: 5080,
+        y: 3304,
+        w: 1600,
+        h: 1140,
+        texto: "",
+        escena: "cargueroMestizaje"
+    },
+    {
+        x: 4504,
+        y: 4500,
+        w: 672,
+        h: 900,
+        texto: "",
+        escena: "cargueroCaqueta"
     }
  ]
 }, 
@@ -134,6 +174,35 @@ detalleRelaciónGobierno: {
     texto: "<h3>Gil de Lemos y Taboada, Francisco, and Vallenari. “Relación de gobierno que el Exmo. Sr. frey Don Francisco Gil de Lemos y Taboada, Virrey del Perú, entrega a su succesor el Exmo. Señor de Vallenari. Año de 1796”, 1796: folio 78 (Detalle).</h3>",
     imagen: "./../../imgs/img_h.1.png",
     escena: "inicio" 
+},
+cargueroArchivo: {
+    texto: "<h3>Camino por las montañas de la Provincia de Antioquia, desde su entrada que es del puerto de Juntas hasta salir a donde llaman la Sexa, y de ahí se puede andar en bestia”. Ca. 1800. Archivo General de Indias (agi), Sevilla, mp-Estampas, 257</h3>",
+    imagen: "./../../imgs/img2.png",
+    escena: "inicio"
+},
+villaneroMira: {
+    texto: "<h3>Passage du Quindiu dans le Cordillère des Andes. Alexander von Humboldt y Aimé Bonpland, Vues des Cordillères et Monuments des Peuples Indigènes de l’Amérique (París: F. Schoell, 1810). Lámina V. (Detalle)</h3>",
+    imagen: "./../../imgs/img4.1.png",
+    escena: "pasoQuindio"
+},
+pasoQuindio: {
+    texto: "<h3>Passage du Quindiu dans le Cordillère des Andes. Alexander von Humboldt y Aimé Bonpland, Vues des Cordillères et Monuments des Peuples Indigènes de l’Amérique (París: F. Schoell, 1810). Lámina V</h3>",
+    imagen: "./../../imgs/img4.png",
+    escena: "inicio"
+},
+cargueroPutumayo: {
+    texto: "<h3>El Tabillo: Maniére dont les voyageurs sont portés á dos d’homme dans les envirous de Pasto. Magasin Pittoresque 16 (1848)</h3>",
+    imagen: "./../../imgs/img13.png",
+    escena: "inicio"
+},
+cargueroMestizaje: {
+    texto: "<h3>Vicente Albán, Yndio Yumbo de Maynas con su Carga, 1783, óleo sobre lienzo, 31.5 × 43 in (80 × 109 cm). Museo de América, Madrid.</h3>",
+    imagen: "./../../imgs/img_j.png",
+    escena: "inicio"
+},
+cargueroCaqueta: {
+    texto: "<h3>Mi escribiente pasando una quebrada a espaldas de su peón carguero, 1873. Acuarela sobre papel gris. 18 x 15 cm. José María Gutiérrez de Alba. Impresiones de un viaje a América. Tomo IX. Excursión al Caquetá. Del 28 de enero al 26 de mayo de 1873.</h3>",
+    imagen: "./../../imgs/img14.png"
 } 
 }
 
