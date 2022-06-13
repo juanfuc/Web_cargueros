@@ -140,7 +140,7 @@ let escenas = {
               escena: "inicio",
               areas: [
                {
-                 x: 511,
+                 x: 480,
                  y: 438,
                  w: 40,
                  h: 70,

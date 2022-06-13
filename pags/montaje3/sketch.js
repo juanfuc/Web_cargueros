@@ -202,7 +202,8 @@ cargueroMestizaje: {
 },
 cargueroCaqueta: {
     texto: "<h3>Mi escribiente pasando una quebrada a espaldas de su peón carguero, 1873. Acuarela sobre papel gris. 18 x 15 cm. José María Gutiérrez de Alba. Impresiones de un viaje a América. Tomo IX. Excursión al Caquetá. Del 28 de enero al 26 de mayo de 1873.</h3>",
-    imagen: "./../../imgs/img14.png"
+    imagen: "./../../imgs/img14.png",
+    escena: "inicio"
 } 
 }
 
