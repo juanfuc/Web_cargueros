@@ -43,12 +43,23 @@ html, body {
   }
 
   .storyp p{
-    font-size:medium;
-    font-weight: lighter;
+    font-size: 22px;
+    font-weight:normal;
     text-align: justify;
     text-decoration: none;
 
   }
+  .storyp a {
+    text-decoration: none;
+    color: #3fab9b;
+    text-align: right;
+    font-size: larger;
+  }
+  .storyp a :hover{
+    color:#5e454b;
+  }
+
+
   .storybutton {
     padding: 10px;
     background: #5e454b;
